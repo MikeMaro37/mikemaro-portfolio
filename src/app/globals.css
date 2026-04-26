@@ -40,6 +40,13 @@
 }
 
 @layer utilities {
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease;
+  }
   .font-serif-italic {
     font-family: var(--font-serif);
     font-style: italic;
