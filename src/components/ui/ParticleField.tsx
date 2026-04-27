@@ -20,7 +20,7 @@ type Props = {
   color?: string;
 };
 
-export function ParticleField({ count = 120, color = "rgba(255,255,255," }: Props) {
+export function ParticleField({ count = 237, color = "rgba(255,255,255," }: Props) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const particlesRef = useRef<Particle[]>([]);
