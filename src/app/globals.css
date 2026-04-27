@@ -51,6 +51,7 @@
     font-family: var(--font-serif);
     font-style: italic;
     font-weight: 400;
+    font-feature-settings: "liga" 0, "dlig" 0, "calt" 0;
   }
 
   .reveal {
