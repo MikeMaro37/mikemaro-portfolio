@@ -18,11 +18,11 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   title: "Mike Maro — Art Director & CG Supervisor",
   description:
-    "Cinema for modern brands. Art direction, CG supervision and AI video production for fashion, sport and lifestyle.",
+    "Commercials for modern brands. Art direction, CG supervision and AI video production for fashion, sport and lifestyle.",
   metadataBase: new URL("https://mikemaro.com"),
   openGraph: {
     title: "Mike Maro — Art Director & CG Supervisor",
-    description: "Cinema for modern brands.",
+    description: "Commercials for modern brands.",
     url: "https://mikemaro.com",
     siteName: "Mike Maro",
     locale: "en_US",
