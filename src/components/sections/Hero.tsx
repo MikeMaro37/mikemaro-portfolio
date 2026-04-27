@@ -35,7 +35,8 @@ export function Hero() {
             "radial-gradient(ellipse 80% 50% at 50% 10%, rgba(255,255,255,0.06), transparent 60%), radial-gradient(ellipse 60% 40% at 50% 100%, rgba(255,255,255,0.04), transparent 60%)",
         }}
       />
-<ParticleField count={80} />
+      <ParticleField count={80} color="rgba(255,255,255,0.06)"
+       />
       <p className="relative text-xs tracking-[0.1em] uppercase text-muted-dark mb-6 font-medium">
         Art Director &nbsp;·&nbsp; CG Supervisor
       </p>
