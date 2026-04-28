@@ -36,7 +36,7 @@ export function Hero() {
         }}
       />
 
-      <ParticleField count={237} />
+      <ParticleField count={137} />
 
       <p className="relative z-10 text-xs tracking-[0.1em] uppercase text-muted-dark mb-6 font-medium">
         Art Director &nbsp;·&nbsp; CG Supervisor
