@@ -13,10 +13,13 @@ export function About() {
               Mike Maro is a Belgrade-based art director and CG supervisor. He has led visual direction on commercial films for fashion, sport, retail and lifestyle brands across Europe.
             </p>
             <p className="text-[17px] leading-[1.55] text-muted-light mb-4 max-w-[52ch]">
-              His practice combines traditional CG craft with AI-native production pipelines — a hybrid approach that shortens timelines without softening the work.
+              He is the founder and creative director of <a href="https://studio37.team" target="_blank" rel="noopener noreferrer" className="underline decoration-fg-light/30 underline-offset-4 hover:decoration-fg-light transition-colors">Studio 37</a>, where he built a team and a body of work spanning campaigns, product films and brand identities for clients including Avito, Yandex and VK.
+            </p>
+            <p className="text-[17px] leading-[1.55] text-muted-light mb-4 max-w-[52ch]">
+              His practice combines traditional CG craft with AI-native production pipelines, a hybrid approach that shortens timelines without softening the work.
             </p>
             <p className="text-[17px] leading-[1.55] text-muted-light max-w-[52ch]">
-              Available for campaigns, product films, title sequences and brand identity direction.
+              Currently available for freelance art direction across Europe: campaigns, product films, title sequences and brand identity work.
             </p>
           </div>
 
