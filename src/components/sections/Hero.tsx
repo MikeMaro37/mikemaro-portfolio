@@ -27,25 +27,33 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-[120px] pb-20 text-center overflow-hidden bg-black">
+      <div
+        aria-hidden
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse 80% 50% at 50% 10%, rgba(255,255,255,0.04), transparent 60%), radial-gradient(ellipse 60% 40% at 50% 100%, rgba(255,255,255,0.03), transparent 60%)",
+        }}
+      />
 
-      <ParticleField count={237} color="rgba(255,255,255,0.06)"
-       />
-      <p className="relative text-xs tracking-[0.1em] uppercase text-muted-dark mb-6 font-medium">
+      <ParticleField count={237} />
+
+      <p className="relative z-10 text-xs tracking-[0.1em] uppercase text-muted-dark mb-6 font-medium">
         Art Director &nbsp;·&nbsp; CG Supervisor
       </p>
 
-      <h1 className="relative hero-gradient-text text-[clamp(56px,11vw,160px)] font-semibold tracking-[-0.055em] leading-[0.95] mb-6">
+      <h1 className="relative z-10 hero-gradient-text text-[clamp(56px,11vw,160px)] font-semibold tracking-[-0.055em] leading-[0.95] mb-6">
         Commercials<br />
         <span className="font-serif-italic tracking-[-0.02em]">for modern brands.</span>
       </h1>
 
-      <p className="relative text-[clamp(18px,2vw,22px)] text-muted-dark font-normal max-w-[640px] leading-[1.4] mb-12">
+      <p className="relative z-10 text-[clamp(18px,2vw,22px)] text-muted-dark font-normal max-w-[640px] leading-[1.4] mb-12">
         Crafting visual language for the world&apos;s most demanding names in fashion, sport and lifestyle. Directed from concept to final frame.
       </p>
 
       <div
         onClick={() => setOpen(true)}
-        className="group relative w-[min(92vw,1080px)] aspect-video rounded-[20px] overflow-hidden shadow-[0_40px_120px_rgba(0,0,0,0.6)] ring-1 ring-hairline-dark bg-black cursor-pointer transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.01]"
+        className="group relative z-10 w-[min(92vw,1080px)] aspect-video rounded-[20px] overflow-hidden shadow-[0_40px_120px_rgba(0,0,0,0.6)] ring-1 ring-hairline-dark bg-black cursor-pointer transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.01]"
       >
         <iframe
           src="https://player.vimeo.com/video/1186466644?background=1&autoplay=1&loop=1&muted=1&autopause=0&badge=0&title=0&byline=0&portrait=0"

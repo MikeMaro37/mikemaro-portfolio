@@ -109,10 +109,10 @@ export function ParticleField({ count = 237, color = "rgba(255,255,255," }: Prop
     );
     io.observe(container);
 
-    const REPEL_RADIUS = 160;
-    const REPEL_FORCE = 1.2;
-    const RETURN_FORCE = 0.035;
-    const FRICTION = 0.9;
+    const REPEL_RADIUS = 370;
+    const REPEL_FORCE = 3.7;
+    const RETURN_FORCE = 0.0037;
+    const FRICTION = 0.73;
 
     const draw = () => {
       if (!visibleRef.current) {
