@@ -59,7 +59,7 @@ export function ParticleField({ count = 237, color = "rgba(255,255,255," }: Prop
           baseX: x,
           baseY: y,
           size: Math.random() * 2.5 + 1,
-          opacity: Math.random() * 0.5 + 0.4,
+          opacity: Math.random() * 0.5 + 0.6,
           vx: 0,
           vy: 0,
           driftX: (Math.random() - 0.5) * 0.2,
